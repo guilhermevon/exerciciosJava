@@ -54,7 +54,6 @@ public class Exercicios {
         double salario = sc.nextDouble();
         System.out.print("Digite quantas horas você trabalha por dia: ");
         double horasPorDia = sc.nextDouble();
-        // vamos assumir 22 dias úteis no mês
         double valorPorHora = salario / (22 * horasPorDia);
         System.out.println("Você recebe aproximadamente R$ " + valorPorHora + " por hora.");
         System.out.println("--------------------------------");
@@ -62,3 +61,4 @@ public class Exercicios {
         sc.close();
     }
 }
+
